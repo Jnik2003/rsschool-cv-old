@@ -40,14 +40,14 @@ Recruitment, interviews.
 #### EDUCATION
 ***
 #### Daugavpils Higher Aviation Engineering School  | Daugavpils, Latvia
-Radio electronics , Radio Engineer
+##### Radio electronics , Radio Engineer
 Aug.1988 - May.1993
 Here, for the ﬁrst time, I seriously started programming in Basic and Pascal. Applied in the diploma project
 #### ITMO University  | Saint-Petersburg, Russia
 ##### Web design, web development , Web designer, web developer
 Oct.2019 - Oct.2020
 I studied web design (Photoshop, Corel Draw, Adobe Illustrator, Adobe Indesign, the basics of composition, 
-typography, practical design). Also, web development. HTML, CSS. Languages Javascript, PHP. Layout 
+typography, practical design). Also, web development. HTML, CSS. Languages Javascript, PHP. Databases MySQL. Layout 
 technologies (Bootstrap, Flexbox, Grid, Pixel perfect, SASS, Gulp), GIT, UI/UX, website promotion. I 
 defended the diploma project "Website development of the company PROTON LLC" and received the 
 qualiﬁcation "Web designer, web developer"
