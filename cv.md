@@ -1,7 +1,10 @@
 # Georgii  Nikitinas
 Email kaunas16@gmail.com
+
 Phone +79111243222
+
 Location Saint-Petersburg Russia 
+
 ***
 #### WORK EXPERIENCE
 ***
