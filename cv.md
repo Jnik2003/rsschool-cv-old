@@ -39,7 +39,7 @@ Recruitment, interviews.
 ***
 #### EDUCATION
 ***
-##### Daugavpils Higher Aviation Engineering School  | Daugavpils, Latvia
+#### Daugavpils Higher Aviation Engineering School  | Daugavpils, Latvia
 Radio electronics , Radio Engineer
 Aug.1988 - May.1993
 Here, for the ﬁrst time, I seriously started programming in Basic and Pascal. Applied in the diploma project
@@ -59,17 +59,26 @@ Improved my knowledge of the basics of PHP. The project was completed using rout
 #### SKILLS
 ***
 Javascript &#9733;&#9733;&#9734;&#9734;&#9734;
+
 PHP &#9733;&#9733;&#9734;&#9734;&#9734;
+
 MySQL &#9733;&#9734;&#9734;&#9734;&#9734;
+
 HTML &#9733;&#9733;&#9734;&#9734;&#9734;
+
 CSS &#9733;&#9733;&#9734;&#9734;&#9734;
+
 Git &#9733;&#9734;&#9734;&#9734;&#9734;
+
 SASS &#9733;&#9733;&#9734;&#9734;&#9734;
+
 ***
 #### LANGUAGES
 ***
 English &#9733;&#9734;&#9734;&#9734;&#9734;
+
 Lithuanian &#9733;&#9733;&#9734;&#9734;&#9734;
+
 ***
 #### CODE EXAMPLES
 ***
