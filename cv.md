@@ -11,7 +11,7 @@ Location Saint-Petersburg Russia
 #### Public agency  | Saint-Petersburg Russia
 ##### Senior Engineer-Head of the computing center
 Oct.1994 - Jan.2010
-Working with databases. Development of software for working with databases in the in programming language Micronetic Standart Mumps
+Working with databases. Development of software for working with databases in the programming language Micronetic Standart Mumps
 Maintaining the smooth operation of the ﬂeet of personal computers (approximately 50), servers (Windows 
 OS, Novell). Computer repair (assembly and testing), installation and conﬁguration of operating systems, 
 development of a local computer network (installation of a cable system, connection), maintenance of 
@@ -87,14 +87,16 @@ Lithuanian &#9733;&#9733;&#9734;&#9734;&#9734;
 ***
 Reverse an array without using Array.prototype.reverse
 ```
-let arr = [10, 2, 3, 4, 7, 2, "Hi"];
+let arr = [-5, 0, 10, 2, 3, 4, 7, 2, "Hi", [5,4,7]];
+
+function arrayReverse(arr){
 let revarr = [];
-arr.forEach((item, index) => {
-		revarr.push(arr[arr.length - index - 1]);
-	})
-console.log(revarr);
+arr.forEach((item, index) => revarr.push(arr[arr.length - index - 1]));
+return revarr;
+}
+console.log(arrayReverse(arr));
 ```
 ***
 #### SUMMARY
 ***
-I regularly go in for sports - I love active cycling. Also, I like web development. All my free time I am engaged in raising my professional level. Hope I can be of service to you
+I regularly go in for sports - I love active cycling. Also, I like web development. All my free time I am engaged in raising my professional level. Hope I can be useful to you
