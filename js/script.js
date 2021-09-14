@@ -18,13 +18,13 @@ function mobileMenu(){
 			return;
 		}	
 		menu.style.left = '0px';
-		btn.style.backgroundImage = 'url(/img/icons/menu_close.svg)';
+		btn.style.backgroundImage = 'url(./img/icons/menu_close.svg)';
 		btn.classList.add('open-menu');
 	}
 	function fClose(){
 		
 		menu.style.left = '-350px';
-		btn.style.backgroundImage = 'url(/img/icons/menu_open.svg)';
+		btn.style.backgroundImage = 'url(./img/icons/menu_open.svg)';
 	}
 }
 
