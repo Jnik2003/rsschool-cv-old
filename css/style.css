@@ -113,6 +113,7 @@ body, html {
           user-select: none;
   background-color: #4E4D4D;
   color: #F4F4F4;
+  scroll-behavior: smooth;
 }
 
 section {
@@ -140,6 +141,98 @@ article {
 
 .textwrap {
   word-break: break-all;
+}
+
+nav .nav-wrapper {
+  height: 100px;
+}
+nav .nav-wrapper .section-nav {
+  background-color: #737373;
+  height: 100px;
+  padding: 0;
+}
+nav .nav-wrapper .section-nav .nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  height: 100px;
+}
+nav .nav-wrapper .section-nav .nav-menu .nav-menu-item {
+  cursor: pointer;
+  height: 20px;
+  font-size: 22px;
+}
+nav .nav-wrapper .section-nav .nav-menu .nav-menu-item span {
+  height: 3px;
+  background-color: black;
+  display: block;
+  margin-top: 10px;
+  transition: 0.3s;
+  width: 0;
+}
+nav .nav-wrapper .section-nav .nav-menu .nav-menu-item:hover span {
+  width: 100%;
+}
+
+.mobile {
+  display: none;
+  position: relative;
+}
+.mobile .burger-btn {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  cursor: pointer;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  background-image: url("/img/icons/menu_open.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  transition: 0.3s;
+}
+.mobile .burger-btn .nav-mobile-wrapper {
+  position: absolute;
+  width: 300px;
+  top: 50px;
+  left: -350px;
+  z-index: 1;
+  transition: 0.5s;
+}
+.mobile .burger-btn .nav-mobile-wrapper .section-mobile-nav {
+  background-color: #737373;
+  height: 45vh;
+  max-width: inherit;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border-radius: 0 0 10px 0;
+}
+.mobile .burger-btn .nav-mobile-wrapper .section-mobile-nav .nav-mobile-menu {
+  max-width: inherit;
+  padding: 50px 20px;
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.mobile .burger-btn .nav-mobile-wrapper .section-mobile-nav .nav-mobile-menu .nav-menu-item {
+  margin-bottom: 30px;
+}
+.mobile .burger-btn .nav-mobile-wrapper .section-mobile-nav .nav-mobile-menu .nav-menu-item span {
+  height: 3px;
+  background-color: black;
+  display: block;
+  transition: 0.3s;
+  width: 0;
+}
+.mobile .burger-btn .nav-mobile-wrapper .section-mobile-nav .nav-mobile-menu .nav-menu-item:hover span {
+  width: 100%;
 }
 
 .my_photo {
@@ -237,6 +330,15 @@ pre {
   background-color: black;
 }
 
+@media all and (max-width: 1024px) {
+  .desctop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
 @media all and (max-width: 640px) {
   h1 {
     font-size: 62px;
