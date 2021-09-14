@@ -188,7 +188,7 @@ nav .nav-wrapper .section-nav .nav-menu .nav-menu-item:hover span {
   top: 5px;
   left: 5px;
   z-index: 1;
-  background-image: url("/img/icons/menu_open.svg");
+  background-image: url(".././img/icons/menu_open.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
