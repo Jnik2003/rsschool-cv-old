@@ -232,6 +232,11 @@ pre {
   white-space: pre-wrap;
 }
 
+.hljs.language-javascript {
+  border-radius: 10px;
+  background-color: black;
+}
+
 @media all and (max-width: 640px) {
   h1 {
     font-size: 62px;

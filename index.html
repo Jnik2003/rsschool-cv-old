@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My CV</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link href='http://yastatic.net/highlightjs/8.2/styles/solarized_light.min.css' rel='stylesheet'/>
 </head>
 <body>
 
@@ -171,6 +173,7 @@
 		<div class="subtitle">Reverse an array without using Array.prototype.reverse</div>
 		
 		<pre>
+			<code>
 let arr = [-5, 0, 10, 2, 3, 4, 7, 2, "Hi", [5,4,7]];
 
 function arrayReverse(arr){
@@ -179,6 +182,7 @@ arr.forEach((item, index) => revarr.push(arr[arr.length - index - 1]));
 return revarr;
 }
 console.log(arrayReverse(arr));
+			</code>
 		</pre>	
 		</article>
 		
@@ -192,5 +196,7 @@ console.log(arrayReverse(arr));
 	</section>
 	
 	
+<script src="js/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 </body>
 </html>
